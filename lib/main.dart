@@ -20,6 +20,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
+  int a = 1;
 
   final GlobalKey webViewKey = GlobalKey();
 
