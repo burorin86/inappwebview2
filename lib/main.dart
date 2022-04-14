@@ -69,11 +69,13 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+
           // appBar: AppBar(title: Text("Official InAppWebView website")),
           body: SafeArea(
               child: Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Column(children: <Widget>[
+
                   TextField(
                     decoration: InputDecoration(
                         prefixIcon: Icon(Icons.search)
@@ -192,3 +194,4 @@ class _MyAppState extends State<MyApp> {
     );
   }
 }
+
